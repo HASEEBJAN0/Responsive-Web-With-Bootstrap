@@ -1,0 +1,53 @@
+.nav-item {
+    margin: 0px 20px;
+}
+.round {
+    border-radius: 100px;
+}
+.bi-star-fill {
+    color: rgb(255, 204, 0);
+}
+  .fs-xs {
+    font-size: 12px; 
+  }
+  .m-r {
+    margin: 0 !important;
+  }
+  .bg {
+    background-color: #E6D8FC;
+  }
+  .bg-p {
+    background-color: #8667de;
+  }
+
+  .bl {
+    color: black;
+  }
+  .bdr {
+    background-color: orange;
+    border-radius: 20px;
+    color: white;
+  }
+
+.bg-purple {
+  background-color: #8667de;
+}
+.bg-orange {
+  background-color: #f4a320;
+}
+
+@media (max-width: 768px) {
+  .bg-purple {
+    height: 100vh !important;
+  }
+  .bg-orange img {
+    /* position: relative; */
+    top: 0 !important;
+    left: 50% !important;
+    /* bottom: 50 !important; */
+    /* transform: translate(0%,0%) !important; */
+  }
+ 
+}     
+
+ 
