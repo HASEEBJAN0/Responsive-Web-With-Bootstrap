@@ -35,6 +35,20 @@
 .bg-orange {
   background-color: #f4a320;
 }
+.accordion-button::after{
+  background-image: url('./assets/Frame\ 146.png');
+}
+.accordion-button:not(.collapsed){
+  background-color: #c88211;
+}
+.radius {
+  border-radius: 50px !important;
+  border: 1px solid;
+  box-shadow: 1px 1px 3px rgb(6, 6, 6);
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url('./assets/minus.png');
+}
 
 @media (max-width: 768px) {
   .bg-purple {
