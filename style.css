@@ -49,7 +49,14 @@
 .accordion-button:not(.collapsed)::after {
   background-image: url('./assets/minus.png');
 }
+.card{
+  transition: 200ms ease-in-out;
+}
+.card:hover {
+  transform: scale(0.9);
+  /* padding: 10px; */
 
+}
 @media (max-width: 768px) {
   .bg-purple {
     height: 100vh !important;
